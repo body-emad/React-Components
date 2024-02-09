@@ -1,0 +1,94 @@
+%Component-placeholder {
+  border: solid hsl(0, 2%, 55%) 1px;
+  display: inline-block;
+  max-width: 350px;
+  box-shadow: 5px 5px 5px rgb(165, 165, 165);
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Card {
+  @extend %Component-placeholder;
+}
+.Card .card-image {
+  height: auto;
+  max-width: 60%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.Card .card-paragraph {
+  font-weight: 100;
+}
+.Student {
+  box-shadow: 5px 5px 5px rgba(239, 97, 97, 0.525);
+  @extend %Component-placeholder;
+}
+.third-component {
+  @extend %Component-placeholder;
+}
+
+.welcome-message {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+.plsLogInMsg {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.List-items {
+  border: solid rgba(124, 139, 132, 0.708) 1px;
+  box-shadow: 5px 5px 5px 5px rgba(83, 83, 206, 0.356);
+  border-radius: 10px;
+  display: inline-block;
+  align-items: center;
+  padding-left: 14px;
+  height: auto;
+  width: 300px;
+}
+.Button {
+  border: solid rgb(176, 174, 174) 1px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(33, 32, 32, 0.658);
+  padding: 20px;
+  margin: 15px;
+  font-size: 18px;
+}
+.react-logo {
+  @extend %Component-placeholder;
+}
+.use-state-card {
+  @extend %Component-placeholder;
+}
+.PlacesToVisit {
+  border-top: rgb(31, 5, 78) solid 3px;
+  @extend %Component-placeholder;
+}
+.PlacesToVisit .title {
+  background-color: rgba(3, 3, 78, 0.68);
+  color: white;
+}
+.counter-container {
+  @extend %Component-placeholder;
+  max-width: 500px;
+  padding-bottom: 30px;
+}
+.counter-displayer {
+  font-size: 4rem;
+}
+.increament {
+  @extend .Button;
+  background-color: rgba(6, 6, 104, 0.763);
+}
+.decreament {
+  @extend .increament;
+}
+.reset {
+  @extend .increament;
+}
