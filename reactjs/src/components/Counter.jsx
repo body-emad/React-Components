@@ -3,10 +3,17 @@ import { useState } from "react";
 function Counter() {
     const [count, setCount] = useState(0);
     const increament = () => {
-setCount(count + 1)
+        // setCount(count + 1)
+        // updater functions is better practice
+        setCount(c => c + 1)
+        setCount(c => c + 1)
+        setCount(c => c + 1)
     }
     const decreament = () => {
-        setCount(count - 1)
+        // setCount(count - 1)
+        setCount(c => c - 1)
+        setCount(c => c - 1)
+        setCount(c => c - 1)
 
     }
     const reset = () => {

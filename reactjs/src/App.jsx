@@ -8,6 +8,8 @@ import ProfilePic from "./components/ProfilePic";
 import MyComponent from "./components/MyComponent";
 import PlacesToVisit from "./components/PlacesToVisit"
 import Counter from "./components/Counter";
+import OnchangePractice from "./components/Onchange";
+import ColorPicker from "./components/ColorPicker"
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 70 },
@@ -44,6 +46,8 @@ function App() {
       <MyComponent />
       <PlacesToVisit />
       <Counter />
+      <OnchangePractice />
+      <ColorPicker />
     </>
   );
 }

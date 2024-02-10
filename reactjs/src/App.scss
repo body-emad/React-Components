@@ -92,3 +92,21 @@
 .reset {
   @extend .increament;
 }
+.onchange-container{
+  @extend %Component-placeholder;
+
+}
+.input{
+ border: rgba(101, 7, 7, 0.833) solid 1px; 
+ border-radius: 10px;
+ padding:10px;
+}
+.color-picker-container{
+  @extend %Component-placeholder;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
