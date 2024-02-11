@@ -63,9 +63,9 @@
 .react-logo {
   @extend %Component-placeholder;
 }
-.use-state-card {
-  @extend %Component-placeholder;
-}
+// .use-state-card {
+//   // @extend %Component-placeholder;
+// }
 .PlacesToVisit {
   border-top: rgb(31, 5, 78) solid 3px;
   @extend %Component-placeholder;
@@ -92,21 +92,62 @@
 .reset {
   @extend .increament;
 }
-.onchange-container{
+.onchange-container {
   @extend %Component-placeholder;
-
 }
-.input{
- border: rgba(101, 7, 7, 0.833) solid 1px; 
- border-radius: 10px;
- padding:10px;
+.input {
+  border: rgba(101, 7, 7, 0.833) solid 1px;
+  border-radius: 10px;
+  padding: 10px;
 }
-.color-picker-container{
+.color-picker-container {
   @extend %Component-placeholder;
   width: 300px;
   height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.cards-layout-container {
+  border: solid rgba(149, 146, 146, 0.732) 5px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-bottom: 25px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 500px;
+  height: auto;
+}
+.cards-layout-container .title {
+  background-color: rgba(6, 6, 102, 0.652);
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.cards-layout-container .description {
+  font-size: 14px;
+}
+.cards-layout-container .location {
+  font-style: initial;
+  letter-spacing: 3px;
+}
 
+.clock-displayer {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.control-stop-watch {
+  @extend %Component-placeholder;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
 }

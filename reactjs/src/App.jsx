@@ -6,10 +6,18 @@ import List from "./components/List";
 import Button from "./components/Button";
 import ProfilePic from "./components/ProfilePic";
 import MyComponent from "./components/MyComponent";
-import PlacesToVisit from "./components/PlacesToVisit"
+import PlacesToVisit from "./components/PlacesToVisit";
 import Counter from "./components/Counter";
 import OnchangePractice from "./components/Onchange";
-import ColorPicker from "./components/ColorPicker"
+import ColorPicker from "./components/ColorPicker";
+import CardsLayout from "./components/CardsLayout";
+import AddFoodAndRemoveFood from "./components/AddAndRemoveFood";
+import AddAndRemoveCars from "./components/AddAndRemoveCars";
+import ToDoList from "./components/ToDoList";
+import HooksPractice from "./components/HooksPractice";
+import DigitalClock from "./components/DigitalClock";
+import UseRefPractice from "./components/UseRefPractice";
+import StopWatch from "./components/StopWatch";
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 70 },
@@ -48,6 +56,14 @@ function App() {
       <Counter />
       <OnchangePractice />
       <ColorPicker />
+      <CardsLayout />
+      <AddFoodAndRemoveFood />
+      <AddAndRemoveCars />
+      <ToDoList />
+      <HooksPractice />
+      <DigitalClock />
+      <UseRefPractice />
+      <StopWatch />
     </>
   );
 }
